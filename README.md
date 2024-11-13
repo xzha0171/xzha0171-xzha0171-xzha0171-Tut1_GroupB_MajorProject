@@ -90,7 +90,7 @@ This enhanced the real-time interactivity, allowing users to adjust the scene's 
 
 - **External Tools and Technologies:**
 
-_Why Use WebGL_
+**_Why Use WebGL_**
 
 In this project, I chose WebGL to implement 3D animation effects. Compared to traditional 2D rendering, WebGL offers the following significant advantages:
 
@@ -101,7 +101,7 @@ WebGL is a browser-based 3D rendering technology that leverages GPU hardware acc
 WebGL allows free manipulation of the camera's position and angle in 3D space. With user inputs (mouse and keyboard), perspectives can be adjusted in real-time, enabling users to view 3D scenes from different angles. This dynamic perspective control is crucial for enhancing interactivity and immersion.
 
 
-_How WebGL Works_
+**_How WebGL Works_**
 
  WebGL is an API embedded directly in the HTML5 Canvas, enabling efficient graphics rendering through JavaScript and direct interaction with the GPU. Its core workflow includes:
 
