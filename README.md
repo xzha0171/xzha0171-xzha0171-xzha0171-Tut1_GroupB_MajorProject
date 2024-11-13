@@ -118,8 +118,8 @@ pop();
      3. Dynamic Perspective Update
      Users can adjust the scene’s perspective in real-time using mouse and keyboard inputs. For example:
 
-      - Horizontal Rotation: Controlled by mouseX to dynamically adjust the horizontal view using rotateY.
-      - Z-Axis Depth Adjustment: Controlled by keyIsPressed combined with arrow keys to move the camera forward or backward.
+    - Horizontal Rotation: Controlled by mouseX to dynamically adjust the horizontal view using rotateY.
+    - Z-Axis Depth Adjustment: Controlled by keyIsPressed combined with arrow keys to move the camera forward or backward.
 
 
 __WebGL plays a crucial role in this project, providing efficient 3D rendering capabilities for the animations. It enables smooth dynamic perspective switching in complex scenes, allowing users to explore the animation from multiple angles, greatly enhancing interactivity and immersion.__
