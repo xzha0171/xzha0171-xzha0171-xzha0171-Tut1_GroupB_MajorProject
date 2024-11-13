@@ -7,14 +7,14 @@ _xzha0171-Tut1_GroupB_MajorProject_
 
 ## Users can interact with this work in the following ways:
 
-- **Mouse interaction**：
+- **Mouse interaction:**
 Move the mouse across the screen to control the horizontal rotation of the scene.
 
-- **Keyboard interaction**：
+- **Keyboard interaction:**
 Press the UP_ARROW key to move the camera forward. 
 Press the DOWN_ARROW key to move the camera backward.
 
-- **Page loading**：
+- **Page loading:**
 Click the mouse on the start screen to launch the animation.
 This interaction allows users to explore the scene from different angles and depths, enhancing engagement and immersion.
 
