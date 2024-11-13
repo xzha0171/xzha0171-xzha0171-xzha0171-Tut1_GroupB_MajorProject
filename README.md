@@ -79,7 +79,9 @@ Building on the original 2D design, I utilized WebGL's box() function and 3D ren
 This enhanced the real-time interactivity, allowing users to adjust the scene's perspective and depth through mouse and keyboard inputs.
 
 -**External Tools and Technologies:**
-_Why Use WebGL and How It Works_
+
+_Why Use WebGL_
+
 In this project, I chose WebGL to implement 3D animation effects. Compared to traditional 2D rendering, WebGL offers the following significant advantages:
 
 1. Efficient 3D Rendering
@@ -88,7 +90,9 @@ WebGL is a browser-based 3D rendering technology that leverages GPU hardware acc
 2. Dynamic Perspective Control
 WebGL allows free manipulation of the camera's position and angle in 3D space. With user inputs (mouse and keyboard), perspectives can be adjusted in real-time, enabling users to view 3D scenes from different angles. This dynamic perspective control is crucial for enhancing interactivity and immersion.
 
+
 _How WebGL Works_
+
  WebGL is an API embedded directly in the HTML5 Canvas, enabling efficient graphics rendering through JavaScript and direct interaction with the GPU. Its core workflow includes:
 
 1. Canvas and WebGL Context
@@ -101,8 +105,8 @@ In this project, I used box(size) to draw 3D cubes.
 3. Dynamic Perspective Update
 Users can adjust the scene’s perspective in real-time using mouse and keyboard inputs. For example:
 
-  - Horizontal Rotation: Controlled by mouseX to dynamically adjust the horizontal view using rotateY.
-  - Z-Axis Depth Adjustment: Controlled by keyIsPressed combined with arrow keys to move the camera forward or backward.
+    - Horizontal Rotation: Controlled by mouseX to dynamically adjust the horizontal view using rotateY.
+    - Z-Axis Depth Adjustment: Controlled by keyIsPressed combined with arrow keys to move the camera forward or backward.
 
 
 __WebGL plays a crucial role in this project, providing efficient 3D rendering capabilities for the animations. It enables smooth dynamic perspective switching in complex scenes, allowing users to explore the animation from multiple angles, greatly enhancing interactivity and immersion.__
@@ -112,10 +116,12 @@ __WebGL plays a crucial role in this project, providing efficient 3D rendering c
 - [WebGL Basics Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial)
 
 - [YouTube Tutorial](https://www.youtube.com/watch?v=o5t7PxRJSXk)
+
 Learned the basic principles of 3D drawing in p5.js through the tutorial.
 
 - [CodePen Reference](https://codepen.io/Niekes/pen/mdOrXaw)
 - [CodePen Reference](https://codepen.io/yoshihito_fujiwara_79/pen/XQxMyb)
+
 The following links helped me understand the logic behind building 3D scenes and implementing user interaction:
 
 
@@ -124,5 +130,6 @@ The following links helped me understand the logic behind building 3D scenes and
 - [p5.js examples](https://p5js.org/reference/p5/box/)
 - [p5.js examples](https://p5js.org/reference/p5/camera/)
 - [p5.js examples](https://p5js.org/reference/p5/loadFont/)
+
 Completed the entire project by learning from the features provided on the p5.js website.
 
