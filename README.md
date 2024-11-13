@@ -21,11 +21,15 @@ This interaction allows users to explore the scene from different angles and dep
 
 ## Individual Animation Approach:
 
-1. **Animation Method**: I chose User Input as the driving method, using mouse and keyboard inputs to dynamically control the animation.
-2. **Animation Properties**：
--Rotation Angle: Users control the scene's horizontal rotation by moving the mouse.
--Camera Depth: Users adjust the camera's depth dynamically using the up and down arrow keys.
--Difference from Other Members: One member's work uses Perlin noise to add dynamic effects to the sky and sea. Another created a time-based piece, where colors change over time to simulate real-world transitions. The sound-based work integrates background music, making the sky pulse in sync with the music's frequency. My work heavily relies on user input, featuring 3D particles to enhance depth perception, allowing users to navigate and adjust the camera view.
+1. **Animation Method:** 
+I chose User Input as the driving method, using mouse and keyboard inputs to dynamically control the animation.
+
+2. **Animation Properties:**
+  - Rotation Angle: Users control the scene's horizontal rotation by moving the mouse.
+  - Camera Depth: Users adjust the camera's depth dynamically using the up and down arrow keys.
+
+3. **Difference from Other Members:**
+One member's work uses Perlin noise to add dynamic effects to the sky and sea. Another created a time-based piece, where colors change over time to simulate real-world transitions. The sound-based work integrates background music, making the sky pulse in sync with the music's frequency. My work heavily relies on user input, featuring 3D particles to enhance depth perception, allowing users to navigate and adjust the camera view.
 
 
 ## Inspiration:
