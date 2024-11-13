@@ -5,6 +5,8 @@ let skyRects = []; // Store rectangles for the sky part
 let seaRects = []; // Store rectangles for the sea part
 let mainRects = []; // Store rectangles for the main part
 let reflectionRects = []; // Store rectangles for the reflection part
+let camZ=0
+let camSpd=0
 
 function preload() {
    // Preload image assets for different parts of the scene
@@ -97,7 +99,7 @@ function rectInit() {
 
 function draw() {
     background(0); // Set background color to black
-    translate(-width / 2, -height / 2); // Adjust origin for 3D transformations
+    //translate(-width / 2, -height / 2); // Adjust origin for 3D transformations
     rotateY(mouseX * 0.05); // Rotate scene based on mouse movement
 
     // Draw all rectangles representing the sky part
@@ -124,28 +126,38 @@ function draw() {
         mainRects[i].drawRect();
     }
 
+    print (camZ)
     // Print the total count of all rectangles
-    print(skyRects.length + seaRects.length + reflectionRects.length + mainRects.length);
+    // print(skyRects.length + seaRects.length + reflectionRects.length + mainRects.length);
+    if (keyIsPressed){
+        if (keyCode===UP_ARROW){
+            camSpd= Lerp(camSpd,40, 1)
+        } else if (keyCode=== DOWN_ARROW) {
+            camSpd = lerp(camSpd,-40, 1)
+        }
+    } else {
+        camSpd = lerp(camSpd, 0, 0.1)
+    }
+    camZ += camSpd;
+}
+function keyPressed() {
+
 }
 
 // Rectangle class, used to store data for each rectangle and implement drawing and movement logic
 class Rect {
     constructor(x, y, r, g, b, a, part) {
-        this.x = x; // x-coordinate of the rectangle
-        this.y = y; // y-coordinate of the rectangle
-        this.z = 0; // Z-coordinate for 3D depth
+        this.x = x - width/ 2; // x-coordinate of the rectangle
+        this.y = y - height/ 2; // y-coordinate of the rectangle
         this.r = r; // Red value
         this.g = g; // Green value
-        this.b = b; // Blue value
+        this.b = b; // Blue value        
+        let bri = brightness(color(r, g, b));//0-255
+        this.z = map(bri, 0, 255, 100, -1500);
         this.a = a; // Alpha (transparency) value
         this.part = part; // Part of the image the rectangle belongs to
-
-        // Calculate brightness and map it to Z-depth for 3D effect
-        let bri = brightness(color(r, g, b));
-        this.z = map(bri, 0, 255, 100, -1500);
         }
     
-
     move() {
         // If we want to add movement to the rectangle, we can add it here
         // For the personal part later
@@ -154,7 +166,7 @@ class Rect {
     drawRect() {
         push(); // Save the current drawing settings
         noStroke(); // No border for the rectangle
-        translate(this.x, this.y, this.z); // Move to rectangle's position
+        translate(this.x, this.y, this.z + camZ); // Move to rectangle's position
         rotate(45);// Rotate the degrees of the rectangle
         fill(this.r, this.g, this.b); // Set the fill color
         box(size); // Draw a 3D box (cube)
