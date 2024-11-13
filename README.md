@@ -41,6 +41,7 @@ One member's work uses Perlin noise to add dynamic effects to the sky and sea. A
 
 [Wheat Field with Cypresses](https://www.xiaohongshu.com/explore/6574f998000000001502c53e?app_platform=ios&app_version=8.60&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBJ37PBF7_hw2ZxY7ev-UgGd1lYzoz3Iru5LPTLOB0nYA=&author_share=1&xhsshare=WeixinSession&shareRedId=NzxGQTdKO0w-O0pGTEwzN0tFT0g0OD1O&apptime=1731459812&share_id=ccfb1857ea8e4bfabc7c7c7c67266921&exSource=)
 
+
 __Inspiration for my work:__
 
 This idea comes from a digital artwork by Andrey Zakirzyanov. Van Gogh's Les Saintes-Maries-de-la-Mer inspired me to imagine traveling through a 3D scene based on an oil painting. 
@@ -82,12 +83,12 @@ box(size); // Use WebGL's box() function to draw a 3D cube
 pop();
 ```
 
--**Modifications to the Team Code:**
+- **Modifications to the Team Code:**
 
 Building on the original 2D design, I utilized WebGL's box() function and 3D rendering capabilities to extend the scene into a three-dimensional space.
 This enhanced the real-time interactivity, allowing users to adjust the scene's perspective and depth through mouse and keyboard inputs.
 
--**External Tools and Technologies:**
+- **External Tools and Technologies:**
 
 _Why Use WebGL_
 
