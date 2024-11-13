@@ -55,7 +55,7 @@ Since our base code is also built by stacking multiple rectangles, this discover
 ## Technical Explanation:
 - **Technical Implementation:**
 
-My code primarily uses p5.js and WebGL, leveraging their strengths to create an interactive and immersive 3D animation. Below are the core technical details:
+  My code primarily uses p5.js and WebGL, leveraging their strengths to create an interactive and immersive 3D animation. Below are the core technical details:
 
 1. WebGL Rendering: Utilizes WebGL's 3D rendering capabilities to create dynamic 3D scenes in p5.js using the WEBGL mode.
 2. Mouse Interaction: Controls rotateY with mouseX to dynamically adjust the horizontal rotation of the scene, allowing users to change their viewpoint in real-time.
@@ -87,38 +87,39 @@ pop();
 
 - **Modifications to the Team Code:**
 
-Building on the original 2D design, I utilized WebGL's box() function and 3D rendering capabilities to extend the scene into a three-dimensional space.
-This enhanced the real-time interactivity, allowing users to adjust the scene's perspective and depth through mouse and keyboard inputs.
+  Building on the original 2D design, I utilized WebGL's box() function and 3D rendering capabilities to extend the scene into a three-dimensional space.
+
+  This enhanced the real-time interactivity, allowing users to adjust the scene's perspective and depth through mouse and keyboard inputs.
 
 - **External Tools and Technologies:**
 
-**_Why Use WebGL_**
+    **_Why Use WebGL_**
 
-In this project, I chose WebGL to implement 3D animation effects. Compared to traditional 2D rendering, WebGL offers the following significant advantages:
+    In this project, I chose WebGL to implement 3D animation effects. Compared to traditional 2D rendering, WebGL offers the following significant advantages:
 
-1. Efficient 3D Rendering
-WebGL is a browser-based 3D rendering technology that leverages GPU hardware acceleration. Unlike pure 2D rendering or CPU-based calculations, WebGL handles complex 3D scenes more efficiently, maintaining high frame rates even with dynamic animations or when rendering numerous objects.
+     1. Efficient 3D Rendering
+        WebGL is a browser-based 3D rendering technology that leverages GPU hardware acceleration. Unlike pure 2D rendering or CPU-based calculations, WebGL handles complex 3D scenes more efficiently, maintaining high frame rates even with dynamic animations or when rendering numerous objects.
 
-2. Dynamic Perspective Control
-WebGL allows free manipulation of the camera's position and angle in 3D space. With user inputs (mouse and keyboard), perspectives can be adjusted in real-time, enabling users to view 3D scenes from different angles. This dynamic perspective control is crucial for enhancing interactivity and immersion.
+     2. Dynamic Perspective Control
+        WebGL allows free manipulation of the camera's position and angle in 3D space. With user inputs (mouse and keyboard), perspectives can be adjusted in real-time, enabling users to view 3D scenes from different angles. This dynamic perspective control is crucial for enhancing interactivity and immersion.
 
 
-**_How WebGL Works_**
+    **_How WebGL Works_**
 
- WebGL is an API embedded directly in the HTML5 Canvas, enabling efficient graphics rendering through JavaScript and direct interaction with the GPU. Its core workflow includes:
+    WebGL is an API embedded directly in the HTML5 Canvas, enabling efficient graphics rendering through JavaScript and direct interaction with the GPU. Its core workflow includes:
 
-1. Canvas and WebGL Context
-Create a WebGL context supporting 3D rendering using createCanvas(width, height, WEBGL).
+     1. Canvas and WebGL Context
+     Create a WebGL context supporting 3D rendering using createCanvas(width, height, WEBGL).
 
-2. Drawing Shapes
-WebGL provides functions like box() and sphere() to draw basic 3D shapes such as cubes and spheres.
-In this project, I used box(size) to draw 3D cubes.
+     2. Drawing Shapes
+     WebGL provides functions like box() and sphere() to draw basic 3D shapes such as cubes and spheres.
+     In this project, I used box(size) to draw 3D cubes.
 
-3. Dynamic Perspective Update
-Users can adjust the scene’s perspective in real-time using mouse and keyboard inputs. For example:
+     3. Dynamic Perspective Update
+     Users can adjust the scene’s perspective in real-time using mouse and keyboard inputs. For example:
 
-    - Horizontal Rotation: Controlled by mouseX to dynamically adjust the horizontal view using rotateY.
-    - Z-Axis Depth Adjustment: Controlled by keyIsPressed combined with arrow keys to move the camera forward or backward.
+      - Horizontal Rotation: Controlled by mouseX to dynamically adjust the horizontal view using rotateY.
+      - Z-Axis Depth Adjustment: Controlled by keyIsPressed combined with arrow keys to move the camera forward or backward.
 
 
 __WebGL plays a crucial role in this project, providing efficient 3D rendering capabilities for the animations. It enables smooth dynamic perspective switching in complex scenes, allowing users to explore the animation from multiple angles, greatly enhancing interactivity and immersion.__
@@ -129,12 +130,12 @@ __WebGL plays a crucial role in this project, providing efficient 3D rendering c
 
 - [YouTube Tutorial](https://www.youtube.com/watch?v=o5t7PxRJSXk)
 
-Learned the basic principles of 3D drawing in p5.js through the tutorial.
+   Learned the basic principles of 3D drawing in p5.js through the tutorial.
 
 - [CodePen Reference](https://codepen.io/Niekes/pen/mdOrXaw)
 - [CodePen Reference](https://codepen.io/yoshihito_fujiwara_79/pen/XQxMyb)
 
-The following links helped me understand the logic behind building 3D scenes and implementing user interaction:
+   The following links helped me understand the logic behind building 3D scenes and implementing user interaction:
 
 
 
@@ -143,5 +144,5 @@ The following links helped me understand the logic behind building 3D scenes and
 - [p5.js examples](https://p5js.org/reference/p5/camera/)
 - [p5.js examples](https://p5js.org/reference/p5/loadFont/)
 
-Completed the entire project by learning from the features provided on the p5.js website.
+   Completed the entire project by learning from the features provided on the p5.js website.
 
