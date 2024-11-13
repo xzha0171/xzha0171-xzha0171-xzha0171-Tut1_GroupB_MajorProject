@@ -62,6 +62,8 @@ Since our base code is also built by stacking multiple rectangles, this discover
 3. Keyboard Interaction: Detects keyboard input using keyIsPressed and smoothly controls the camera's Z-axis movement with the lerp function, enabling dynamic depth adjustments.
 4. Dynamic Drawing of Rectangles and Boxes: Uses WebGL's box() function to add a 3D effect to each rectangle, making them appear more realistic in the 3D space.
 
+
+
 - **Core Code Example:**
 
 ```
@@ -85,11 +87,15 @@ box(size); // Use WebGL's box() function to draw a 3D cube
 pop();
 ```
 
+
+
 - **Modifications to the Team Code:**
 
   Building on the original 2D design, I utilized WebGL's box() function and 3D rendering capabilities to extend the scene into a three-dimensional space.
 
   This enhanced the real-time interactivity, allowing users to adjust the scene's perspective and depth through mouse and keyboard inputs.
+
+
 
 - **External Tools and Technologies:**
 
@@ -123,6 +129,7 @@ pop();
 
 
 __WebGL plays a crucial role in this project, providing efficient 3D rendering capabilities for the animations. It enables smooth dynamic perspective switching in complex scenes, allowing users to explore the animation from multiple angles, greatly enhancing interactivity and immersion.__
+
 
 
 ## References： 
