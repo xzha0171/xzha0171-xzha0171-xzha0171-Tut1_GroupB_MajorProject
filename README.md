@@ -2,7 +2,7 @@
 _xzha0171-Tut1_GroupB_MajorProject_
 
 ## Animation Preview:  
-![PREVIEW](readme assets/Preview.gif)
+![PREVIEW](assets/Preview.gif)
 
 
 ## Users can interact with this work in the following ways:
@@ -33,10 +33,10 @@ One member's work uses Perlin noise to add dynamic effects to the sky and sea. A
 
 
 ## Inspiration:
-![Inspration1](readme assets/GIF_1.gif)
+![Inspration1](assets/GIF_1.gif)
 [The Sea at Les Saintes](https://www.youtube.com/watch?v=u0bwaIiTPIc)
 
-![Inspration2](readme assets/GIF_2.gif)
+![Inspration2](assets/GIF_2.gif)
 [Wheat Field with Cypresses](https://www.xiaohongshu.com/explore/6574f998000000001502c53e?app_platform=ios&app_version=8.60&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBJ37PBF7_hw2ZxY7ev-UgGd1lYzoz3Iru5LPTLOB0nYA=&author_share=1&xhsshare=WeixinSession&shareRedId=NzxGQTdKO0w-O0pGTEwzN0tFT0g0OD1O&apptime=1731459812&share_id=ccfb1857ea8e4bfabc7c7c7c67266921&exSource=)
 
 __Inspiration for my work:__
